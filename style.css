@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400&display=swap");
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M780.9223799578194 402.9111530297955L872.1302402145482 399.7261043659347 777.7373312939586 311.7032927730667z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M367.59363723843046 538.3341011791445L400.98893564751125 381.2215747687647 243.87640923713153 347.8262763596839 210.4811108280507 504.93880277006366z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-10.09032690354049 590.6377568199499L132.00477901419475 568.1321029963137 109.49912519055853 426.03699707857845-32.59598072717672 448.54265090221463z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1054.1092954748603 141.66597411715625L1106.299752003022 5.705186534265465 970.3389644201311-46.48526999389608 918.1485078919695 89.4755175889947z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1260.71%2c243.806C1301.591%2c247.279%2c1347.145%2c243.84%2c1370.492%2c210.102C1396.514%2c172.499%2c1397.628%2c120.391%2c1372.597%2c82.121C1349.369%2c46.607%2c1303.119%2c40.724%2c1260.71%2c42.251C1221.592%2c43.659%2c1180.514%2c55.239%2c1161.957%2c89.704C1144.082%2c122.903%2c1158.746%2c162.096%2c1179.09%2c193.842C1197.537%2c222.628%2c1226.643%2c240.912%2c1260.71%2c243.806' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1219.6080800964241 301.1708699034049L1109.6760944333514 361.97027863099873 1202.8052591670626 420.16383944200976z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  font-family: "Fira Sans Condensed", sans-serif;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.419);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.qoute-text {
+  font-size: 2.75rem;
+}
+.long-qoute {
+  font-size: 2rem;
+}
+.fa-quote-left {
+  font-size: 4rem;
+}
+.qoute-author {
+  margin-top: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.button-container{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  outline: none;
+  padding: 0.5rem 1.8rem ;
+  background: rgba(255, 255, 255, 0.419);
+  box-shadow: 0 0.3rem rgba(121,121,121,0.65) ;
+}
+button:hover{
+  filter: brightness(110%);
+}
+button:active{
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255,255,255,0.65);
+}
+.twitter-button:hover{
+  color: #1DA1F2;
+}
+.fa-twitter{
+  font-size: 1.5rem;
+}
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3477db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Media Query: Tablet or Smaller */
+@media screen and (max-width: 1000px) {
+  .container{
+    margin: auto 10px;
+  }
+
+  .qoute-text {
+    font-size: 2.5rem;
+  }
+}
